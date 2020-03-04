@@ -256,6 +256,19 @@ fieldset[disabled] .btn-app.focus {
         font-size: 14px;
     }
 }
+@media only screen and (max-width: 425px) {
+    .cv-name {
+        font-size: 26px;
+    }
+
+    .ui-width-expand {
+        flex-basis: calc(100% - 100px);
+    }
+    
+    .ui-width-auto {
+        flex-basis: 100px;
+    }
+}
 
 @media print {
     a[href]:after {
