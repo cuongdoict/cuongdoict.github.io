@@ -1,0 +1,251 @@
+body {
+    font-size: 14px;
+    font-family: 'Averta-Regular'
+}
+
+@font-face {
+    font-family: 'Averta-Bold';
+    src: url("../fonts/averta/Averta-Bold.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Averta-Semibold';
+    src: url("../fonts/averta/Averta-Semibold.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Averta-Regular';
+    src: url("../fonts/averta/Averta-Regular.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Averta-ExtraBold';
+    src: url("../fonts/averta/Averta-ExtraBold.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Averta-ExtraBoldItalic';
+    src: url("../fonts/averta/Averta-ExtraBoldItalic.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Averta-Black';
+    src: url("../fonts/averta/Averta-Black.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+#cv-header {
+    background-color: #39445a
+}
+
+.session-item h5 {
+    font-family: 'Averta-Bold';
+    color: #000;
+    font-size: 17px
+}
+
+.session-item h6 {
+    font-family: 'Averta-Semibold';
+    font-size: 16px;
+    margin: 0
+}
+
+.session-item address, .session-item time {
+    font-size: 12px;
+    color: #007B98;
+    display: inline-block;
+    margin-bottom: 0;
+    line-height: inherit; 
+}
+
+.cv-skill-grid {
+    margin-left: -7px
+}
+
+.cv-skill-grid > * {
+    padding-left: 7px
+}
+
+.cv-skill-grid .uk-grid-margin {
+    margin-top: 7px
+}
+
+.cv-name {
+    color: #ffffff;
+    font-size: 32px
+}
+.bg-dark {
+    background-color: #39445a
+}
+
+.bg-darker {
+    background-color: #2b343d
+}
+
+.session-title {
+    color: #007B98;
+    border-bottom: 2px solid #007B98;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 16px 0 12px;
+    font-family: 'Averta-Black';
+    letter-spacing: 1px;
+}
+
+.cv-block-info {
+    background-color: #2b343d;
+    padding: 12px 0;
+    color: #ffffff;
+    font-size: 13.5px
+}
+
+.cv-info {
+    color: #007B98;
+    position: relative;
+    top: -5px;
+    font-size: 12px
+}
+
+.list-bullet {
+    margin-top: 5px !important;
+}
+
+.ui-flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ui-width-expand {
+   flex-basis: calc(100% - 140px);
+}
+
+.ui-width-auto {
+    flex-basis: 132px;
+}
+
+.buttons-list .btn {
+    margin: 0 4px 4px 0px;
+    padding: 3px 12px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.btn--rounded {
+    border-radius: 100px;
+}
+
+
+.btn-app {
+    color: #fff;
+    background-color: #007B98;
+    border-color: #007B98;
+}
+.btn-app:focus,
+.btn-app.focus {
+    color: #fff;
+    background-color: #007B98;
+    border-color: #122b40;
+}
+.btn-app:hover {
+    color: #fff;
+    background-color: #007B98;
+    border-color: #007B98;
+}
+.btn-app:active,
+.btn-app.active,
+.open > .dropdown-toggle.btn-app {
+    color: #fff;
+    background-color: #007B98;
+    background-image: none;
+    border-color: #007B98;
+}
+.btn-app:active:hover,
+.btn-app.active:hover,
+.open > .dropdown-toggle.btn-app:hover,
+.btn-app:active:focus,
+.btn-app.active:focus,
+.open > .dropdown-toggle.btn-app:focus,
+.btn-app:active.focus,
+.btn-app.active.focus,
+.open > .dropdown-toggle.btn-app.focus {
+    color: #fff;
+    background-color: #007B98;
+    border-color: #122b40;
+}
+.btn-app.disabled:hover,
+.btn-app[disabled]:hover,
+fieldset[disabled] .btn-app:hover,
+.btn-app.disabled:focus,
+.btn-app[disabled]:focus,
+fieldset[disabled] .btn-app:focus,
+.btn-app.disabled.focus,
+.btn-app[disabled].focus,
+fieldset[disabled] .btn-app.focus {
+    background-color: #00aed6;
+    border-color: #007B98;
+}
+.btn-app .badge {
+    color: #00aed6;
+    background-color: #fff;
+}
+
+.link-block {
+    display: block;
+}
+
+.session-container .session-item {
+    border-top: dotted #007B98 1px;
+    padding-bottom: 10px;
+}
+
+.session-container .session-item.first-child {
+    border-top: none !important;
+}
+
+.info-text-icon {
+    color: #007B98;
+    margin-right: 2px;
+}
+
+.info-text {
+    color: #ffffff;
+}
+
+.info-box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.info-block {
+    margin-top: 8px;
+}
+
+.sub-title {
+    color: #007B98; 
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 768px) {
+    .info-box {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0;
+    }
+    .info-box div {
+        margin-bottom: 10px;
+    }
+}
+/*# sourceMappingURL=layout.css.map */
