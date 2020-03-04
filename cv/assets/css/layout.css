@@ -27,20 +27,6 @@
     font-style: normal
 }
 
-@font-face {
-    font-family: 'Averta';
-    src: url("../fonts/averta/Averta-ExtraBoldItalic.otf") format("truetype");
-    font-weight: 700;
-    font-style: italic
-}
-
-@font-face {
-    font-family: 'Averta';
-    src: url("../fonts/averta/Averta-Black.otf") format("truetype");
-    font-weight: 800;
-    font-style: normal
-}
-
 *, body {
     font-size: 14px;
     font-family: "Averta", Arial, Helvetica, sans-serif;
@@ -257,6 +243,18 @@ fieldset[disabled] .btn-app.focus {
     .info-box div {
         margin-bottom: 10px;
     }
+
+    .session-title {
+        font-size: 16px;
+    }
+
+    .session-item h5 {
+        font-size: 16px;
+    }
+
+    .session-item h6 {
+        font-size: 14px;
+    }
 }
 
 @media print {
@@ -264,12 +262,12 @@ fieldset[disabled] .btn-app.focus {
         content: none !important;
     }
     .col-sm-8.printing {
-        width: 66.66666667%;
+        width: 75%;
         float: left;
     }
 
     .col-sm-4.printing {
-        width: 33.33333333%;
+        width: 25%;
         float: left;
     }
 }
