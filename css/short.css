@@ -16,6 +16,7 @@ body {
     max-width: 768px;
     margin: 0 auto;
     padding: 12px;
+    line-height: 2em
 }
 
 h1 {
