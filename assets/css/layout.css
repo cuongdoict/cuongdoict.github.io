@@ -299,3 +299,9 @@ fieldset[disabled] .btn-app.focus {
     font-size: 108%;
     color: #000;
 }
+.p-12 {
+    padding: 12px;
+}
+.m-12 {
+    margin: 12px;
+}
