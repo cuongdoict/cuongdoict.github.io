@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #007B98;
     display: inline-block;
     margin-bottom: 0;
-    line-height: inherit; 
+    line-height: inherit;
 }
 a, a:hover {
     color: #007B98
@@ -202,10 +202,10 @@ fieldset[disabled] .btn-app.focus {
 
 .session-container .session-item {
     border-top: dotted #007B98 1px;
-    padding-bottom: 10px;
+    padding-bottom: 6px;
 }
 
-.session-container .session-item.first-child {
+.session-container .session-item.first-child, .session-container .session-item.sub-child {
     border-top: none !important;
 }
 
@@ -229,7 +229,7 @@ fieldset[disabled] .btn-app.focus {
 }
 
 .sub-title {
-    color: #007B98; 
+    color: #007B98;
     font-size: 13px;
     font-weight: 600;
 }
@@ -270,7 +270,7 @@ fieldset[disabled] .btn-app.focus {
     .ui-width-expand {
         flex-basis: calc(100% - 100px);
     }
-    
+
     .ui-width-auto {
         flex-basis: 100px;
     }
@@ -289,6 +289,9 @@ fieldset[disabled] .btn-app.focus {
         width: 25%;
         float: left;
     }
+    .d-none-print {
+        display: none;
+    }
 }
 
 .d-none {
@@ -304,4 +307,12 @@ fieldset[disabled] .btn-app.focus {
 }
 .m-12 {
     margin: 12px;
+}
+
+.experience-item {
+    padding-left: 12px;
+}
+
+.experience-item h5 {
+    margin-left: -12px;
 }
